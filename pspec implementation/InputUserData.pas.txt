@@ -1,0 +1,11 @@
+program InputUserData;
+var
+   name: string;
+   age: integer;
+begin
+   writeln('Enter your name: ');
+   readln(name);
+   writeln('Enter your age: ');
+   readln(age);
+   writeln('Name: ', name, ', Age: ', age);
+end.
